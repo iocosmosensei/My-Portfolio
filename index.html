@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Julie Baban — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Fraunces:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="#hero" class="nav-logo">Julie ✦</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Work</a></li>
+    <li><a href="#github">GitHub</a></li>
+    <li><a href="#videos">Videos</a></li>
+    <li><a href="#case-studies">Case Studies</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact" class="nav-cta">Say hi 👋</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div id="hero">
+  <div class="hero-left">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Open to opportunities
+    </div>
+    <h1 class="hero-name">Hi, I'm<br><em>Julie</em> Baban.</h1>
+    <p class="hero-desc">
+      IS student, video editor, and creative technologist based in Quezon City. I build things that are equal parts functional and fun — from Android apps to interactive web experiences.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn btn-filled">See my work →</a>
+      <a href="#contact" class="btn btn-ghost">Let's talk</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="photo-frame">
+      <img
+        src="images/2X2 ID PIC.jpg"
+        alt="Julie Baban"
+        class="profile-img"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+      >
+      <div class="photo-placeholder" style="display:none;">
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+          <circle cx="32" cy="24" r="14" fill="#b89edc"/>
+          <path d="M8 56c0-13.255 10.745-24 24-24s24 10.745 24 24" fill="#b89edc"/>
+        </svg>
+        <p>Drop <strong>2X2 ID PIC.jpg</strong><br>into the <code>images/</code> folder</p>
+      </div>
+    </div>
+
+    <div class="currently-card">
+      <div class="label">Currently</div>
+      <div class="currently-item">
+        <span class="currently-icon">🎓</span>
+        Studying BS Information Systems at CIIT College of Innovation & Integrated Technology, QC
+      </div>
+      <div class="currently-item">
+        <span class="currently-icon">🎮</span>
+        Auditor, CIIT Gaming Community
+      </div>
+      <div class="currently-item">
+        <span class="currently-icon">✂️</span>
+        Editing videos on the side
+      </div>
+      <div class="currently-item">
+        <span class="currently-icon">💜</span>
+        SVT fan (ask me anything)
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="fun-strip" aria-hidden="true">
+  <div class="fun-strip-inner">
+    <span>Kotlin + Android <em>✦</em></span>
+    <span>PHP Web Apps <em>✦</em></span>
+    <span>Video Editing <em>✦</em></span>
+    <span>Lean Six Sigma White Belt <em>✦</em></span>
+    <span>Chess Champion <em>✦</em></span>
+    <span>K-pop enthusiast <em>✦</em></span>
+    <span>Open to collabs <em>✦</em></span>
+
+    <span>Kotlin + Android <em>✦</em></span>
+    <span>PHP Web Apps <em>✦</em></span>
+    <span>Video Editing <em>✦</em></span>
+    <span>Lean Six Sigma White Belt <em>✦</em></span>
+    <span>Chess Champion <em>✦</em></span>
+    <span>K-pop enthusiast <em>✦</em></span>
+    <span>Open to collabs <em>✦</em></span>
+  </div>
+</div>
+
+
+<hr class="full-divider">
+<div class="section-wrap" id="about">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">About me</div>
+    <h2 class="section-title">A little bit<br>about <em>who I am</em></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-bio reveal">
+      <p>
+        Hey! I'm Raiza Julienne — but everyone calls me <strong>Julie</strong>. I'm currently studying BS Information Systems at <strong>CIIT College of Innovation and Integrated Technology</strong> in Quezon City, after spending a year at UST's College of Accountancy.
+      </p>
+      <p>
+        I'm the kind of person who actually wants to understand <em>why</em> something works, not just get it running. Whether I'm writing a PHP exam system from scratch or styling a Kotlin UI, I dig into the logic until it clicks.
+      </p>
+      <p>
+        Outside of tech, you'll find me editing videos, or deep in a Seventeen playlist. I believe the best work comes from people who care — and I genuinely do.
+      </p>
+
+      <div class="fun-facts">
+        <div class="fun-fact"><span class="fact-emoji">♟️</span> Was chess club president in high school and won a team championship in Grade 8</div>
+        <div class="fun-fact"><span class="fact-emoji">🎬</span> Skilled in both short-form reels and long-form video editing</div>
+        <div class="fun-fact"><span class="fact-emoji">🏅</span> Certified Lean Six Sigma White Belt as of June 2026</div>
+        <div class="fun-fact"><span class="fact-emoji">🖥️</span> GitHub handle is <strong>iocosmosensei</strong></div>
+        <div class="fun-fact"><span class="fact-emoji">📐</span> Completed the Kumon Mathematics program</div>
+      </div>
+
+      <div class="stat-row">
+        <div class="stat-box">
+          <div class="stat-num">6+</div>
+          <div class="stat-label">Orgs joined</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Awards received</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">BS Information Systems</div>
+          <div class="stat-label">Current degree</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">2025</div>
+          <div class="stat-label">Enrolled at CIIT</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills-block reveal">
+      <div class="skills-group-title">Tech stack</div>
+      <div class="skill-tags">
+        <span class="tag tech">Kotlin</span>
+        <span class="tag tech">Android Studio</span>
+        <span class="tag tech">XML Layouts</span>
+        <span class="tag tech">PHP</span>
+        <span class="tag tech">MySQL</span>
+        <span class="tag tech">HTML / CSS</span>
+        <span class="tag tech">JavaScript</span>
+        <span class="tag tech">Git / GitHub</span>
+        <span class="tag tech">Python</span>
+      </div>
+
+      <div class="skills-group-title">Creative toolkit</div>
+      <div class="skill-tags">
+        <span class="tag creative">Short-form Video</span>
+        <span class="tag creative">Long-form Video</span>
+        <span class="tag creative">Commissions</span>
+        <span class="tag creative">UI Design</span>
+      </div>
+
+      <div class="skills-group-title">How I work</div>
+      <div class="skill-tags">
+        <span class="tag soft">Goal-Oriented</span>
+        <span class="tag soft">Approachable</span>
+        <span class="tag soft">Quick-Witted</span>
+        <span class="tag soft">Communicative</span>
+        <span class="tag soft">Patient</span>
+        <span class="tag soft">Takes Initiative</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="full-divider">
+<div class="section-wrap" id="projects">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">My work</div>
+    <h2 class="section-title">Things I've <em>built</em></h2>
+    <p class="section-sub">A mix of academic projects, personal experiments, and creative builds.</p>
+  </div>
+
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <img src="images/To The Moon Logo Transparent.png" alt="To the Moon Internet Cafe" class="project-img" onerror="this.parentElement.classList.add('no-img');">
+        <div class="project-thumb-fallback">🎵</div>
+      </div>
+      <div class="project-type-label" style="color:#2a9d8f;">Website</div>
+      <h3>To the Moon Internet Cafe Website</h3>
+      <p>A modern, responsive website for a local internet cafe, showcasing services and creating a welcoming online presence.</p>
+      <div class="chip-row">
+        <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">MySQL</span>
+      </div>
+      <div class="project-links">
+        <a href="https://iocosmosensei.github.io/tothemooninternetcafe/" class="plink" target="_blank">Live Site →</a>
+        <a href="https://github.com/iocosmosensei" class="plink" target="_blank">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <img src="images/quaranteane.jpg" alt="Quaranteane Cafe Staff Portal" class="project-img" onerror="this.parentElement.classList.add('no-img');">
+        <div class="project-thumb-fallback">📝</div>
+      </div>
+      <div class="project-type-label" style="color:#e07d2e;">PHP Web App</div>
+      <h3>Quaranteane Cafe Staff Portal</h3>
+      <p>A web application for managing staff schedules, inventory, and customer interactions at a local cafe — designed to streamline operations and enhance communication.</p>
+      <div class="chip-row">
+        <span class="chip">PHP</span><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">MySQL</span>
+      </div>
+      <div class="project-links">
+        <a href="https://iocosmosensei.github.io/FUNDSISFINALS/" class="plink" target="_blank">Live Site →</a>
+        <a href="https://github.com/iocosmosensei" class="plink" target="_blank">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <img src="images/Personal Website.jpg" alt="Personal Website v1" class="project-img" onerror="this.parentElement.classList.add('no-img');">
+        <div class="project-thumb-fallback">🌐</div>
+      </div>
+      <div class="project-type-label" style="color:#d4607a;">Web · Personal</div>
+      <h3>Personal Website v1</h3>
+      <p>My first portfolio — built for Intro to Computing class, deployed on GitHub Pages. It started somewhere, and every version after has been better because of it.</p>
+      <div class="chip-row">
+        <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">GitHub Pages</span>
+      </div>
+      <div class="project-links">
+        <a href="https://iocosmosensei.github.io/introtocomp/" class="plink" target="_blank">Live Site →</a>
+        <a href="https://github.com/iocosmosensei" class="plink" target="_blank">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <img src="images/Video Editing.jpg" alt="Video Editing Commissions" class="project-img" onerror="this.parentElement.classList.add('no-img');">
+        <div class="project-thumb-fallback">🎨</div>
+      </div>
+      <div class="project-type-label" style="color:#d4607a;">Creative · Art</div>
+      <h3>Video Editing Commissions</h3>
+      <p>Video editing work for clients — a Google Drive portfolio of pieces — proof that creativity and code aren't mutually exclusive.</p>
+      <div class="chip-row">
+        <span class="chip">Video Edits</span><span class="chip">Long Form</span><span class="chip">Commissions</span>
+      </div>
+      <div class="project-links">
+        <a href="https://drive.google.com/drive/folders/10Gc1IaAVK63hDotKV63MWkoqndGQveCh?usp=drive_link" class="plink" target="_blank">View portfolio →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="full-divider">
+<div class="section-wrap" id="github">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">Open source</div>
+    <h2 class="section-title">Find me on <em>GitHub</em></h2>
+    <p class="section-sub">All my projects, coursework, and experiments live here. Always building, always pushing commits at odd hours.</p>
+  </div>
+  <div class="github-hero reveal">
+    <div class="github-avatar">J</div>
+    <h3>@iocosmosensei</h3>
+    <p>From Android apps to PHP systems — the repos are a honest log of how I'm growing as a developer.</p>
+    <div class="lang-pills">
+      <div class="lang-pill"><span class="lang-dot" style="background:#A97BFF"></span>Kotlin</div>
+      <div class="lang-pill"><span class="lang-dot" style="background:#4F5D95"></span>PHP</div>
+      <div class="lang-pill"><span class="lang-dot" style="background:#e34c26"></span>HTML / CSS</div>
+      <div class="lang-pill"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</div>
+      <div class="lang-pill"><span class="lang-dot" style="background:#3572A5"></span>Python</div>
+    </div>
+    <a href="https://github.com/iocosmosensei?tab=repositories" target="_blank" class="btn btn-filled">Browse all repositories →</a>
+  </div>
+</div>
+
+<hr class="full-divider">
+<div class="section-wrap" id="videos">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">Motion work</div>
+    <h2 class="section-title">Videos <em>&amp; demos</em></h2>
+    <p class="section-sub">I edit both short-form and long-form content. Whether it's a punchy 30-second reel or a full project walkthrough, I care about pacing, flow, and story.</p>
+  </div>
+
+  <div class="video-grid">
+    <div class="video-card reveal">
+      <a class="video-thumb" href="https://drive.google.com/file/d/1WPLGghflt91kU0DPS271-aKqEjc4HEkT/view?usp=drive_link" target="_blank" rel="noopener" data-fallback-bg="linear-gradient(135deg, #c4b0e8, #e88ab4)">
+        <img src="images/HAPPY BIRTHDAY LINDSEY.jpg" alt="Short-Form Highlight Reel" class="video-thumb-img" onerror="this.style.display='none'; this.parentElement.style.background=this.parentElement.dataset.fallbackBg;">
+        <div class="play-circle">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="#7c5cbf"><polygon points="4,2 14,8 4,14"/></svg>
+        </div>
+        <div class="thumb-label">SHORT FORM</div>
+      </a>
+      <div class="video-body">
+        <h4>Short-Form Highlight Reel</h4>
+        <p>Reels, cuts, and punchy edits — the kind people actually finish watching & can put on stories.</p>
+      </div>
+    </div>
+
+    <div class="video-card reveal">
+      <a class="video-thumb" href="https://drive.google.com/file/d/1rERiNt_7r6POpk6Uxd6a7GrSSIva8c61/view?usp=drive_link" target="_blank" rel="noopener" data-fallback-bg="linear-gradient(135deg, #f0c96e, #e07d2e)">
+        <img src="images/theo - Celes.jpg" alt="Theology Topic Discussion" class="video-thumb-img" onerror="this.style.display='none'; this.parentElement.style.background=this.parentElement.dataset.fallbackBg;">
+        <div class="play-circle">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="#7c5cbf"><polygon points="4,2 14,8 4,14"/></svg>
+        </div>
+        <div class="thumb-label">LONG FORM</div>
+      </a>
+      <div class="video-body">
+        <h4>Theology Topic Discussion</h4>
+        <p>Full Deep Dive on a Theology Topic</p>
+      </div>
+    </div>
+
+    <div class="video-card reveal">
+      <a class="video-thumb" href="https://drive.google.com/file/d/15udFjFQEpfnU_z2VDb4s73F0SO9zuSac/view?usp=drive_link" target="_blank" rel="noopener" data-fallback-bg="linear-gradient(135deg, #7ee8e8, #2a9d8f)">
+        <img src="images/Stayed Gone - Twelsa Cover.jpg" alt="Song Cover" class="video-thumb-img" onerror="this.style.display='none'; this.parentElement.style.background=this.parentElement.dataset.fallbackBg;">
+        <div class="play-circle">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="#7c5cbf"><polygon points="4,2 14,8 4,14"/></svg>
+        </div>
+        <div class="thumb-label">CREATIVE EDIT</div>
+      </a>
+      <div class="video-body">
+        <h4>Song Cover</h4>
+        <p>Music Sync Song Cover of an Iconic Song in a very creative way</p>
+      </div>
+    </div>
+  </div>
+
+<hr class="full-divider">
+<div class="section-wrap" id="certifications">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">Credentials</div>
+    <h2 class="section-title">Awards <em>&amp; certs</em></h2>
+    <p class="section-sub">Things I've earned — from a Lean Six Sigma certification to a chess championship that still brings me joy.</p>
+  </div>
+
+  <div class="cert-grid">
+    <div class="cert-card reveal">
+      <div class="cert-badge" style="background:var(--gold-light);">🏅</div>
+      <div class="cert-info">
+        <h4>Certified Lean Six Sigma White Belt</h4>
+        <div class="cert-org" style="color:var(--gold);">Council for Six Sigma Certification (C.S.S.C)</div>
+        <div class="cert-date">June 2026</div>
+      </div>
+    </div>
+
+    <div class="cert-card reveal">
+      <div class="cert-badge" style="background:var(--cyan-light);">📐</div>
+      <div class="cert-info">
+        <h4>Kumon Mathematics Program Completer</h4>
+        <div class="cert-org" style="color:var(--cyan);">Kumon Philippines — Manggahan (Rodriguez) Center</div>
+        <div class="cert-date">October 2022</div>
+      </div>
+    </div>
+
+    <div class="cert-card reveal">
+      <div class="cert-badge" style="background:var(--lavender-light);">♟️</div>
+      <div class="cert-info">
+        <h4>MAPEH Fest Chess Team Champion</h4>
+        <div class="cert-org" style="color:var(--lavender);">Grade 8 · St. Scholastica's Academy of Marikina</div>
+        <div class="cert-date">2018–2019</div>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="leadership-title">Leadership roles</h3>
+  <div class="cert-grid">
+    <div class="cert-card reveal">
+      <div class="cert-badge" style="background:var(--lavender-light);">🎮</div>
+      <div class="cert-info">
+        <h4>Auditor — CIIT Gaming Community</h4>
+        <div class="cert-org" style="color:var(--lavender);">CIIT College of Innovation and Integrated Technology</div>
+        <div class="cert-date">2025–2026</div>
+      </div>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-badge" style="background:var(--pink-light);">📋</div>
+      <div class="cert-info">
+        <h4>Director of Logistics — UST LakasDiwa AMV</h4>
+        <div class="cert-org" style="color:var(--pink);">University of Santo Tomas</div>
+        <div class="cert-date">2023–2024</div>
+      </div>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-badge" style="background:var(--lavender-light);">📝</div>
+      <div class="cert-info">
+        <h4>Class Secretary — UST AMV Section 1A1</h4>
+        <div class="cert-org" style="color:var(--lavender);">University of Santo Tomas</div>
+        <div class="cert-date">2023–2024</div>
+      </div>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-badge" style="background:var(--cyan-light);">🔍</div>
+      <div class="cert-info">
+        <h4>Research Committee Member — USTAMV AISS</h4>
+        <div class="cert-org" style="color:var(--cyan);">UST Accountancy Information Systems Society</div>
+        <div class="cert-date">2023–2024</div>
+      </div>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-badge" style="background:var(--gold-light);">🏗️</div>
+      <div class="cert-info">
+        <h4>Booth Project Head — UST SHS Entrepreneurship Expo</h4>
+        <div class="cert-org" style="color:var(--gold);">University of Santo Tomas Senior High School</div>
+        <div class="cert-date">December 2023</div>
+      </div>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-badge" style="background:var(--lavender-light);">♟️</div>
+      <div class="cert-info">
+        <h4>Club President — Chess Club</h4>
+        <div class="cert-org" style="color:var(--lavender);">St. Scholastica's Academy of Marikina</div>
+        <div class="cert-date">2019–2020</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="full-divider">
+<div class="section-wrap" id="resume">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">Download</div>
+    <h2 class="section-title">My <em>résumé</em></h2>
+  </div>
+
+  <div class="resume-section">
+    <div class="resume-card reveal">
+      <div class="big-emoji">📄</div>
+      <h3>Raiza Julienne B. Baban</h3>
+      <p>IS Student · Video Editor · Creative Technologist<br>CIIT College of Innovation and Integrated Technology · 2025–Present</p>
+      <a href="files/CV.pdf" download="Raiza_Julienne_Baban_CV.pdf" class="btn btn-filled">Download CV (PDF) ↓</a>
+    </div>
+
+    <div class="resume-blurb reveal">
+      <h3>The kind of person you want <em>on your team</em></h3>
+      <p>I'm goal-oriented but easy to work with. I take initiative without waiting to be told, communicate clearly, and actually follow through.</p>
+      <p>I've led events, served in multiple student orgs, worked as a math checker at Kumon, and been building things in code since my first Intro to Computing class. Each experience layered something useful on top of the last.</p>
+      <div class="resume-highlights">
+        <div class="rh-item"><span class="rh-dot"></span>Currently studying IS at CIIT, Quezon City</div>
+        <div class="rh-item"><span class="rh-dot"></span>Lean Six Sigma White Belt certified (June 2026)</div>
+        <div class="rh-item"><span class="rh-dot"></span>Skilled in Kotlin, PHP, HTML/CSS/JS, Python</div>
+        <div class="rh-item"><span class="rh-dot"></span>Short-form & long-form video editing</div>
+        <div class="rh-item"><span class="rh-dot"></span>Available for part-time roles and collabs</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="full-divider">
+<div class="section-wrap" id="contact">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">Let's connect</div>
+    <h2 class="section-title">Got a project?<br><em>Say hi.</em></h2>
+  </div>
+
+  <div class="contact-grid">
+    <div class="contact-left reveal">
+      <h3>I'm open to <em>collabs, internships, and side projects</em></h3>
+      <p>Whether you want to build something together, need a video editor, or just want to geek out over tech or K-pop — my inbox is always open.</p>
+
+      <div class="contact-links">
+        <a href="mailto:raizababan.business@gmail.com" class="contact-link">
+          <div class="clink-icon">✉️</div>
+          raizababan.business@gmail.com
+        </a>
+        <a href="mailto:raizababan0727@gmail.com" class="contact-link">
+          <div class="clink-icon">📬</div>
+          raizababan0727@gmail.com
+        </a>
+        <a href="mailto:raiza.baban@ciit.edu.ph" class="contact-link">
+          <div class="clink-icon">📬</div>
+          raiza.baban@ciit.edu.ph
+        </a>
+        <a href="tel:+639277330250" class="contact-link">
+          <div class="clink-icon">📱</div>
+          (+63) 927 733 0250
+        </a>
+        <a href="https://github.com/iocosmosensei" target="_blank" class="contact-link">
+          <div class="clink-icon">🐙</div>
+          github.com/iocosmosensei
+        </a>
+        <div class="contact-link">
+          <div class="clink-icon">📍</div>
+          San Jose, Rodriguez, Rizal
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-card reveal">
+      <h4>Send me a message 💌</h4>
+      <div class="form-group">
+        <label>Your name</label>
+        <input type="text" placeholder="What should I call you?">
+      </div>
+      <div class="form-group">
+        <label>Your email</label>
+        <input type="email" placeholder="So I can write back">
+      </div>
+      <div class="form-group">
+        <label>Your message</label>
+        <textarea placeholder="Tell me what you have in mind..."></textarea>
+      </div>
+      <button class="btn btn-filled" style="width:100%; border:none; cursor:pointer;" onclick="alert('Message sent! 🎉\n\n(Connect this to Formspree or EmailJS to activate real sending.)')">
+        Send it → 
+      </button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">Julie ✦</div>
+  <p>© 2026 Raiza Julienne Baban · Built with care ☕</p>
+  <p><a href="https://github.com/iocosmosensei" target="_blank">@iocosmosensei</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
