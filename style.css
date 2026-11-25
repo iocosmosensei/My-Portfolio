@@ -846,7 +846,7 @@ footer a { color: var(--lavender-mid); text-decoration: none; }
   .hero-ctas { justify-content: center; }
 
   .section-wrap { padding: 60px 24px; }
-  .about-grid, .contact-grid, .resume-section, .exp-grid { grid-template-columns: 1fr; gap: 32px; }
+  .about-grid, .contact-grid, .resume-section { grid-template-columns: 1fr; gap: 32px; }
   .github-hero { padding: 36px 24px; }
   footer { padding: 36px 24px; flex-direction: column; text-align: center; }
 }
@@ -936,6 +936,8 @@ a.video-thumb {
 }
 
 /* Experience & education timeline */
+.exp-grid > div { min-width: 0; }
+
 .exp-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
@@ -997,3 +999,13 @@ a.video-thumb {
 .tl-item ul { padding-left: 18px; }
 .tl-item li { font-size: 13.5px; color: var(--text2); line-height: 1.65; margin-bottom: 4px; }
 .tl-note { font-size: 13px; color: var(--muted); margin-top: -4px; }
+
+@media (max-width: 860px) {
+  .exp-grid { grid-template-columns: 1fr; gap: 40px; }
+  .tl-item { padding: 18px 18px; }
+}
+
+@media (max-width: 420px) {
+  .stat-box { min-width: 0; padding: 16px 10px; }
+  .stat-num { font-size: 26px; overflow-wrap: anywhere; }
+}
